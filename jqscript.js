@@ -1,6 +1,6 @@
 let pageCounter = 1;
-const animalContainer = $('animal-info');
-const btn = $('btn');
+const animalContainer = $('#animal-info');
+const btn = $('#btn');
 
 btn.on('click', function () {
     $.ajax({
